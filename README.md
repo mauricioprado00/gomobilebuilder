@@ -11,7 +11,7 @@ git clone https://github.com/golang/mobile.git
 docker run --rm -ti \
     -v $(pwd)/mobile:/app \
     gomobilebuilder \
-    /go/bin/gomobile build -target=android  ./example/flappy/
+    build -target=android  ./example/flappy/
 ```
 
 # Install the application in your phone
